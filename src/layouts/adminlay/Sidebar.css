@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+}
+.sidebar{
+    background-color: rgb(232, 236, 235);
+    width: 25vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    padding-top: 9px;
+}
+
+.item{
+    height: 5vh;
+    width:100%;
+    display:flex ;
+    gap: 4px;
+    cursor: pointer;
+
+    background-color: #f1f6f8f8;
+    margin-top: 4px;
+    border-radius: 4px;
+    justify-content:center ;
+    align-items: center;
+    text-transform: capitalize;
+    font-size: 1.25rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(65, 3, 94);
+    box-shadow: 2px 2px 2.8px rgba(185, 183, 183, 0.897),-2px -2px 7px rgb(255, 255, 255);
+}
